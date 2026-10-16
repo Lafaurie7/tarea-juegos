@@ -30,34 +30,34 @@ public class MainActivity extends AppCompatActivity {
 
         List<usuarios> listaUsuarios = new ArrayList<>();
         listaUsuarios.add(new usuarios(
-                "https://cdng.europosters.eu/pod_public/1300/268992.jpg",
-                "Sung Jin-Woo",
-                "Protagonista - Monarca de las Sombras"
+                "https://i.pinimg.com/736x/f5/ae/9f/f5ae9fffa5e564b5576b9277f9270714.jpg",
+                "Link",
+                "The Legend of Zelda - Héroe de Hyrule"
         ));
         listaUsuarios.add(new usuarios(
-                "https://i.pinimg.com/736x/ac/57/5b/ac575bdaa2a759d1d3188011fe932a19.jpg",
-                "Cha Hae-In",
-                "Cazadora Rango S - Vicecapitana del Gremio Hunters"
+                "https://i.pinimg.com/1200x/0e/7d/7b/0e7d7b3723a8d5dfa82361b0f0c0da16.jpg",
+                "Master Chief",
+                "Halo - SPARTAN-117"
         ));
         listaUsuarios.add(new usuarios(
-                "https://i.pinimg.com/736x/a2/de/54/a2de545074815a8787345753a534cdca.jpg",
-                "Yoo Jinho",
-                "Cazador Rango D - Vicepresidente del Gremio Ahjin"
+                "https://i.pinimg.com/736x/8b/fe/e6/8bfee6cc8d6c7727a677edeed61fb46f.jpg",
+                "Kratos",
+                "God of War - Dios de la Guerra"
         ));
         listaUsuarios.add(new usuarios(
-                "https://i.pinimg.com/736x/89/a3/96/89a39640e48f4f37e832cfc9f33608c5.jpg",
-                "Choi Jong-In",
-                "Cazador Rango S - El Mago más fuerte / Líder de Hunters"
+                "https://i.pinimg.com/1200x/5a/47/dd/5a47ddced4044114df8069a446b9aee4.jpg",
+                "Lara Croft",
+                "Tomb Raider - Arqueóloga y Exploradora"
         ));
         listaUsuarios.add(new usuarios(
-                "https://i.pinimg.com/1200x/bc/e9/09/bce909eb66e5b31c2e0a7dbc19ea494b.jpg",
-                "Go Gun-Hee",
-                "Presidente de la Asociación de Cazadores de Corea"
+                "https://i.pinimg.com/1200x/7c/ea/93/7cea93d3901f8f42a4e69628c8336988.jpg",
+                "Geralt de Rivia",
+                "The Witcher 3 - El Lobo Blanco"
         ));
         listaUsuarios.add(new usuarios(
-                "https://i.pinimg.com/736x/38/d2/9a/38d29a1b538109adbf81493830bf25e7.jpg",
-                "Baek Yoonho",
-                "Cazador Rango S - Líder del Gremio Tigre Blanco"
+                "https://i.pinimg.com/1200x/14/43/01/1443013dd13d5a9d7483e42ad9dae720.jpg",
+                "Arthur Morgan",
+                "Red Dead Redemption 2 - Forajido"
         ));
 
         usuarioadaptador adaptador = new usuarioadaptador(listaUsuarios);
